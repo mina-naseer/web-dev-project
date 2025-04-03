@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Aclonica&display=swap');
+
+
+body{
+    background-color: #090B37;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    width: 600px;
+    height: 550px;
+    margin: 100px auto;
+  }
+  .login-box{
+    background:linear-gradient(#090B37,#6C2A88,#090B37);
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px rgba(#090B37,#6C2A88,#090B37);
+    width: 600px;
+    height: 550px;
+}
+
+h1{
+    
+   font-size: 50px; 
+   text-align: center;
+   color: white;
+   font-family: "ABeeZee", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 90px;
+
+}
+.input-group{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+input[type="email"],input[type="password"]{
+    width:300px ;
+    padding: 10px;
+    border-radius: 200px;
+    background: none;
+    border: 3px solid white;
+    
+}
+
+input::placeholder{
+    color:#ddd;
+}
+.extras{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 10px;
+    gap: 80px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+label{
+    color: white;
+}
+.login-button{
+    width: 150px;
+    margin-left: 230px;
+    margin-top: 40px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+}
+.signup-text{
+    margin-left: 280px;
+}

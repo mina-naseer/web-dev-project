@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+
+body{
+    width: 100%;
+    height: 1300px;
+    background: linear-gradient(#090B37,#3B1B60, #6C2A88);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+.logo-title{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50px;
+    border: 1px solid white;
+  }
+  .title{
+    color: white;
+    font-family: "Aclonica", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .nav-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  .nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background:none;
+    cursor: pointer;
+    font-size: 1rem;
+    
+}
+.nav-btn:hover {
+    background-color:#6C2A88;
+  }
+
+  .nav-btn a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+
+  .container {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 20px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+/* حقل الإدخال */
+.input-box {
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 20px;
+}
+textarea {
+    width: 100%;
+    height: 300px;
+    background: #222;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    box-shadow: 0px 6px 15px rgba(158, 73, 201, 0.3);
+    border: 3px solid #53425a;
+}
+.counter {
+    font-size: 15px;
+    position: absolute;
+    bottom: 28px;
+    left: 25px;
+    color: #bbb;
+}
+.format-btn {
+    position: absolute;
+    bottom: 28px;
+    right: 10px;
+    background: #b03fc4;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* أزرار التوليد */
+.actions {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    margin-left: 35px;
+
+}
+
+.generate-btn, .undo-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.generate-btn {
+    background: #b03fc4;
+    color: white;
+}
+
+.undo-btn {
+    background: none;
+    color: white;
+}
+
+/* منطقة النتائج */
+.output-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 35px;
+}
+
+.result-area {
+    width: 100%;
+    height: 500px;
+    background: black;
+    border-radius: 5px;
+}
+
+/* أزرار التحكم */
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.download-btn, .save-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.download-btn {
+    background: gray;
+    color: white;
+}
+
+.save-btn {
+    background: white;
+    color: black;
+}

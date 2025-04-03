@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai diagrammatic</title>
+    <link rel="stylesheet" href="../css/g-diagram.css"
+</head>
+<body>
+        <!-- الشريط العلوي -->
+        <nav class="navbar">
+
+            <div class="logo-title">
+              <img width="50px" height="50px" src="../images/logo.jpg" alt="Logo" class="logo">
+              <h1 class="title">Ai diagrammatic</h1>
+            </div>
+
+            <div class="nav-buttons">
+              <button class="nav-btn">
+                <img width="20px" height="20px" src="../images/home.png" alt="Home Icon" class="btn-icon">
+                <a href="../html/home.html">Home</a> 
+              </button>
+              <button class="nav-btn">
+                <img width="20px" height="20px" src="../images/file.png" alt="About Icon" class="btn-icon"> 
+                <a href="#">Doc</a> 
+              </button>
+            </div>
+
+        </nav>
+
+        <div class="container">
+          <div class="input-box">
+            <textarea id="projectInput" placeholder="Instructions for creating a new diagram"></textarea>
+            <div class="counter">0/1000</div>
+            <button class="format-btn">Format Input</button>
+        </div>
+
+        <div class="actions">
+          <button class="generate-btn">Generate Diagram</button>
+          <button class="undo-btn">↩️ Undo</button>
+      </div>
+
+      <!-- منطقة النتائج -->
+      <div class="output-box">
+        <div class="result-area" id="resultArea"></div>
+    </div>
+
+    <!-- أزرار التحكم -->
+    <div class="controls">
+      <button class="download-btn">Download</button>
+      <button class="save-btn">Save</button>
+  </div>
+        </div>
+
+
+
+
+    
+
+</body>
+</html>
