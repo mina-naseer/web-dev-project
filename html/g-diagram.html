@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ai diagrammatic</title>
-    <link rel="stylesheet" href="../css/g-diagram.css"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ai Diagrammatic</title>
+  <link rel="stylesheet" href="../css/g-diagram.css">
 </head>
 <body>
-        <!-- الشريط العلوي -->
-        <nav class="navbar">
+      <!-- -------------- nav --------------   -->
+  <nav class="navbar">
 
-            <div class="logo-title">
-              <img width="50px" height="50px" src="../images/logo.jpg" alt="Logo" class="logo">
-              <h1 class="title">Ai diagrammatic</h1>
-            </div>
-
-            <div class="nav-buttons">
-              <button class="nav-btn">
-                <img width="20px" height="20px" src="../images/home.png" alt="Home Icon" class="btn-icon">
-                <a href="../html/home.html">Home</a> 
-              </button>
-              <button class="nav-btn">
-                <img width="20px" height="20px" src="../images/file.png" alt="About Icon" class="btn-icon"> 
-                <a href="#">Doc</a> 
-              </button>
-            </div>
-
-        </nav>
-
-        <div class="container">
-          <div class="input-box">
-            <textarea id="projectInput" placeholder="Instructions for creating a new diagram"></textarea>
-            <div class="counter">0/1000</div>
-            <button class="format-btn">Format Input</button>
-        </div>
-
-        <div class="actions">
-          <button class="generate-btn">Generate Diagram</button>
-          <button class="undo-btn">↩️ Undo</button>
-      </div>
-
-      <!-- منطقة النتائج -->
-      <div class="output-box">
-        <div class="result-area" id="resultArea"></div>
+    <div class="logo-title">
+      <img width="50px" height="50px" src="../images/logo.jpg" alt="Logo" class="logo">
+      <h1 class="title"> <a href="../html/home.html">Ai Diagrammatic</a></h1>
     </div>
 
-    <!-- أزرار التحكم -->
-    <div class="controls">
-      <button class="download-btn">Download</button>
-      <button class="save-btn">Save</button>
-  </div>
+    <div class="nav-buttons">
+      <button class="nav-btn">
+        <img width="20px" height="20px" src="../images/home.png" alt="Home Icon" class="btn-icon">
+        <a href="../html/home.html">Home</a> 
+      </button>
+      <button class="nav-btn">
+        <img width="20px" height="20px" src="../images/file.png" alt="About Icon" class="btn-icon"> 
+        <a href="#">Doc</a> 
+      </button>
+    </div>
+
+</nav>
+
+
+      <!-- ------------------- container ------------------------->
+
+
+        <div class="container">
+          <header>
+          <p>Transform your ideas into structured diagrams and code in seconds using the power of Generative AI.</p>
+          </header>
+
+          <div class="content">
+            <textarea placeholder="Describe your diagram step by step..."></textarea>
+            <div class="counter">0/1000</div>
+            <button class="format-btn">Format Input</button>
+          </div>
+
+          <div class="buttons">
+            <button class="generate-btn"> Generate Diagram</button>
+            <button class="undo-btn"> ↩️undo</button>
+          </div>
+
+          <div class="buttons">
+            <button class="code-btn">🧠 Generate Codes</button>
+          </div>
+
+          <div class="diagram-box" id="diagram-box"></div>
+
+          <div class="buttons">
+            <button class="save-btn">Save</button>
+            <button class="download-btn"> Download</button>
+          </div>
+
+
         </div>
 
+  
 
 
 
-    
-
+  
 </body>
 </html>

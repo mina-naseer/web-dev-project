@@ -1,13 +1,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Aclonica&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-
-body{
-    width: 100%;
-    height: 1300px;
-    background: linear-gradient(#090B37,#3B1B60, #6C2A88);
-}
+  body {
+    font-family: 'Inter', sans-serif;
+    height: 1500PX;
+    background: linear-gradient(135deg, #1d1f33, #3b0b57, #4b1d8a);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    color: #fff;
+    
+  }
+  
+  @keyframes gradientBG {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+  
 
 .content1{
     width: 90%;
@@ -38,8 +52,13 @@ body{
   .title{
     color: white;
     font-family: "Aclonica", serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
+    font-size: 27px;
+  }
+  .title a{
+    text-decoration: none;
+    color: white;
   }
 
   .nav-buttons {
@@ -58,10 +77,13 @@ body{
     background:none;
     cursor: pointer;
     font-size: 1rem;
+    transition: 0.3s ease;
     
 }
 .nav-btn:hover {
     background-color:#6C2A88;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(75, 86, 210, 0.3);
   }
 
 .btn-icon {
@@ -87,7 +109,9 @@ body{
     text-decoration: none;
 }
 /* ---------introduction--------*/
-
+.intro-section{
+    margin-top: 40px;
+}
 .main-title{
     font-size: 3.5rem;
     font-weight: bold;
@@ -99,7 +123,7 @@ body{
     padding-top: 40px;
 }
 .highlight{
-   color: #9231BB;
+   color:white;
 }
 .subtitle{
   font-size: 1.50rem;
